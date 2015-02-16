@@ -180,7 +180,7 @@ RESOLVFILE
 #   elif defined(__ANDROID__)
 #      define LEASEFILE "/data/misc/dhcp/dnsmasq.leases"
 #   else
-#      define LEASEFILE "/var/lib/misc/dnsmasq.leases"
+#      define LEASEFILE "/oem/dnsmasq.leases"
 #   endif
 #endif
 
